@@ -1,6 +1,7 @@
 <fable>
-	<page>
-  
-    
+	<page background="bg1 - Copia.jpg">
+		<agent img="escola (1).png" x="0" y="-50" width="500" height="350" />
+    <agent text="Olá! Hoje nós iremos acompanhar o estudante Carlos em seu primeiro dia de aula." x="10" y="110" width="500" height="350" font-size="20"/>
+    <agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
   </page>
 </fable>
