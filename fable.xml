@@ -3,23 +3,30 @@
 		<agent img="escola (1).png" x="0" y="-50" width="500" height="350" />
     <agent img="estudante.png" x="350" y="50" width="100" height="150" />
     <agent text="Olá! Hoje nós iremos acompanhar o estudante Carlos em seu primeiro dia de aula." x="10" y="110" width="500" height="350" font-size="20"/>
-    <agent text="Clique na seta para levá-lo para dentro da escola e ajude-o a encontrar sua sala de aula" x="15" y="100" width="450" height="300" font-size="15"/>
+    <agent text="Clique na seta para continuar." x="170" y="-315" width="500" height="350" font-size="15"/>
     <agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
   </page>
   
   <page background="bg2.jpg">
     <agent img="estudante.png" x="170" y="50" width="150" height="220" />
     <agent text="Agora nós precisamos ajudar Carlos a encontrar o laboratório de química. Para isso nós iremos entrar em alguma sala para pedir informação." x="10" y="390" weidth="200" height="90" font-size="20"/>
-    <agent text="Clique na seta para levá-lo para dentro de uma sala de aula." x="15" y="80" width="450" height="300" font-size="15"/>
+    <agent text="Clique na seta para continuar." x="170" y="-315" width="500" height="350" font-size="15"/>
   	<agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
   
   </page>
   
   <page background="saladeaula3.jpg">
     <agent img="zyro-image (1).png" x="0" y="60" width="240" height="370" />
-    <agent text="Este é o professor Fernando, ele dá aulas de biologia neste colégio."x="10" y="110" width="500" height="350" font-size="20" on-touch="story1" >
-    <story1 text="Calos pede ajuda para o professor Fernando, mas ele propõe um desafio ao novato em troca da informação."  x="10" y="110" on-touch="story2" />
-    	<story2 text="O desafio é o seguinte: " x="118" y="130" width="500" height="350" font-size="20"/>
-  
+    <agent text="Este é o professor Fernando, ele dá aulas de biologia neste colégio." x="10" y="110" width="500" height="350" font-size="20"/>
+    <agent text="Calos pede ajuda ao professor, mas ele propõe um desafio ao novato em troca da informação." x="10" y="50" width="500" height="350" font-size="20"/>
+    <agent text="Clique na seta para acessar o desafio" x="170" y="-315" width="500" height="350" font-size="15"/>
+    <agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
+    
+  </page>
+    
+  <page background="quadroNegro2.png">
+  <agent text="Qual alternativa apresenta uma relação ecológica harmônica?" x="30" y="170" width="500" height="220" font-size="20" />
+
+    
   </page>
 </fable>
