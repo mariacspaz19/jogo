@@ -18,8 +18,8 @@
   <page background="saladeaula3.jpg">
     <agent img="zyro-image (1).png" x="0" y="60" width="240" height="370" />
     <agent text="Este é o professor Fernando, ele dá aulas de biologia neste colégio."x="10" y="110" width="500" height="350" font-size="20" on-touch="story1" >
-    <story1 text="Calos pede ajuda para o professor Fernando, mas ele propõe um desafio ao novato em troca da informação."  x="10" y="110" on-touch="story2" >
-    	<story2 text="O desafio é o seguinte: " x="10" y="110" width="500" height="350" font-size="20"/>
+    <story1 text="Calos pede ajuda para o professor Fernando, mas ele propõe um desafio ao novato em troca da informação."  x="10" y="110" on-touch="story2" />
+    	<story2 text="O desafio é o seguinte: " x="118" y="130" width="500" height="350" font-size="20"/>
   
   </page>
 </fable>
