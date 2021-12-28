@@ -29,7 +29,7 @@
   <agent text="Qual alternativa apresenta uma relação ecológica harmônica?" x="30" y="170" width="500" height="220" font-size="20" color="black" />
   <agent img="INQUILINISMO2.png"  x="110" y="200" width="250" height="200" on-touch="_GOTO_PAGE:5"/>
   <agent img="canibalismo.png"  x="110" y="130" width="250" height="200" on-touch="_GOTO_PAGE:6"/>
-  <agent img="predatismo.png"  x="110" y="60" width="250" height="200" on-touch="_GOTO_PAGE:7"/>
+  <agent img="predatismo.png"  x="110" y="60" width="250" height="200" on-touch="_GOTO_PAGE:6"/>
   
   </page>
   
@@ -54,13 +54,12 @@
     <agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
     
   </page>
-  
-     
+      
   <page background="quadroNegro2.png" >
   <agent text="Qual o primeiro movimento revolucionário no Brasil influenciado pelo Iluminismo europeu?" x="30" y="170" width="500" height="220" font-size="20" color="black" />
-  <agent img="conjuracao.png"  x="110" y="200" width="250" height="200" on-touch="_GOTO_PAGE:5"/>
-  <agent img="inconfidencia.png"  x="110" y="130" width="250" height="200" on-touch="_GOTO_PAGE:6"/>
-  <agent img="alfaiates.png"  x="110" y="60" width="250" height="200" on-touch="_GOTO_PAGE:7"/>
+  <agent img="conjuracao.png"  x="110" y="200" width="250" height="200" on-touch="_GOTO_PAGE:6"/>
+  <agent img="alfaiates.png" x="110" y="130" width="250" height="200" on-touch="_GOTO_PAGE:6"/>
+  <agent img="inconfidencia.png"  x="110" y="60" width="250" height="200" on-touch="_GOTO_PAGE:5"/>
   </page>
  
   
