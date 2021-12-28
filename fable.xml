@@ -17,8 +17,9 @@
   
   <page background="saladeaula3.jpg">
     <agent img="zyro-image (1).png" x="0" y="60" width="240" height="370" />
-    <agent text="Este é o professor Fernando, ele dá aulas de biologia neste colégio." x="10" y="110" width="500" height="350" font-size="20"/>
-    <agent text="Calos pede ajuda ao professor, mas ele propõe um desafio ao novato em troca da informação." x="10" y="50" width="500" height="350" font-size="20"/>
+    <agent text="Este é o professor Fernando, ele dá aulas de biologia neste colégio." x="10" y="110" width="500" height="350" font-size="20" on-touch="story2">
+    	<story2 text="Calos pede ajuda ao professor, mas ele propõe um desafio ao novato em troca da informação." x="10" y="110" width="500" height="350" font-size="20"/>
+    </agent>	
     <agent text="Clique na seta para acessar o desafio" x="170" y="-315" width="500" height="350" font-size="15"/>
     <agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
     
@@ -26,6 +27,10 @@
     
   <page background="quadroNegro2.png">
   <agent text="Qual alternativa apresenta uma relação ecológica harmônica?" x="30" y="170" width="500" height="220" font-size="20" />
+  <agent img="bola2.png" x="25" y="290" width="50" height="50" draggable="true" on-drop="cut-sala" on=zone="disappear" in=trigger="dissapear">
+    <disappear x="-100" />
+    </agent>
+  
 
     
   </page>
