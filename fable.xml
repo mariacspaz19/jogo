@@ -9,7 +9,7 @@
   
   <page background="bg2.jpg">
     <agent img="estudante.png" x="170" y="50" width="150" height="220" />
-    <agent text="Agora nós precisamos ajudar Carlos a encontrar o laboratório de química. Para isso nós iremos entrar em alguma sala para pedir informação." x="10" y="390" weidth="200" height="90" font-size="20"/>
+    <agent text="Agora nós precisamos ajudar Carlos a encontrar o laboratório de química. Para isso nós iremos entrar em alguma sala para pedir informação." x="10" y="390" weidth="200" height="90" font-size="20" color="yellow"/>
     <agent text="Clique na seta para continuar." x="170" y="-315" width="500" height="350" font-size="15"/>
   	<agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
   
@@ -17,25 +17,51 @@
   
   <page background="saladeaula3.jpg">
     <agent img="zyro-image (1).png" x="0" y="60" width="240" height="370" />
-    <agent text="Este é o professor Fernando, ele dá aulas de biologia neste colégio." x="10" y="110" width="500" height="350" font-size="20" on-touch="story2" >
-    	<story2 text="Calos pede ajuda ao professor, mas ele propõe um desafio ao novato em troca da informação." x="10" y="110" width="500" height="350" font-size="20"/>
+    <agent text="Este é o professor Fernando, ele dá aulas de biologia neste colégio." x="123" y="110" width="250" height="350" font-size="20" on-touch="story2" >
+    	<story2 text="Calos pede ajuda ao professor, mas ele propõe um desafio ao novato em troca da informação." x="123" y="110" width="250" height="350" font-size="20"/>
     </agent>	
     <agent text="Clique na seta para acessar o desafio" x="170" y="-315" width="500" height="350" font-size="15"/>
     <agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
     
   </page>
     
-  <page background="quadroNegro2.png">
-  <agent text="Qual alternativa apresenta uma relação ecológica harmônica?" x="30" y="170" width="500" height="220" font-size="20" />
-  <agent img="INQUILINISMO2.png"  x="110" y="200" width="250" height="200"/>
-  <agent img="canibalismo.png"  x="110" y="130" width="250" height="200"/>
-  <agent img="predatismo.png"  x="110" y="60" width="250" height="200"/>
-  <agent img="bola2.png" x="25" y="290" width="50" height="50" draggable="true" on-drop="INQUILINISMO2" on=zone="disappear" in=trigger="dissapear">
-    <disappear x="-100" />
-    </agent>
-
+  <page background="quadroNegro2.png" >
+  <agent text="Qual alternativa apresenta uma relação ecológica harmônica?" x="30" y="170" width="500" height="220" font-size="20" color="black" />
+  <agent img="INQUILINISMO2.png"  x="110" y="200" width="250" height="200" on-touch="_GOTO_PAGE:5"/>
+  <agent img="canibalismo.png"  x="110" y="130" width="250" height="200" on-touch="_GOTO_PAGE:6"/>
+  <agent img="predatismo.png"  x="110" y="60" width="250" height="200" on-touch="_GOTO_PAGE:7"/>
   
-	
+  </page>
+  
+  <page background="professoraComQuadro.png">
+    <agent text="acertou" x="110" y="200" width="250" height="200" />
+  
+  </page>
+  
+  <page background="bg2.jpg">
+     <agent img="estudante.png" x="170" y="50" width="150" height="220" />
+    <agent text="Carlos errou o desafio proposto. Agora ela entrará em outra sala para pedir informação." x="10" y="390" weidth="200" height="90" font-size="20" color="yellow"/>
+    <agent text="Clique na seta para continuar." x="170" y="-315" width="500" height="350" font-size="15"/>
+  	<agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
+  </page>
+  
+  <page background="saladeaula3.jpg">
+    <agent img="zyro-image (1).png" x="0" y="60" width="240" height="370" />
+    <agent text="Este é o professor Lúcio, ele dá aulas de história neste colégio." x="123" y="110" width="250" height="350" font-size="20" on-touch="story2" >
+    	<story2 text="Calos pede ajuda ao professor, mas ele propõe também um desafio ao novato em troca da informação." x="123" y="110" width="250" height="350" font-size="20"/>
+    </agent>	
+    <agent text="Clique na seta para acessar o desafio" x="170" y="-315" width="500" height="350" font-size="15"/>
+    <agent img="seta.png" x="450" y="0" width="50" height="50" on-touch="_NEXT_PAGE" />
     
   </page>
+  
+     
+  <page background="quadroNegro2.png" >
+  <agent text="Qual o primeiro movimento revolucionário no Brasil influenciado pelo Iluminismo europeu?" x="30" y="170" width="500" height="220" font-size="20" color="black" />
+  <agent img="conjuracao.png"  x="110" y="200" width="250" height="200" on-touch="_GOTO_PAGE:5"/>
+  <agent img="inconfidencia.png"  x="110" y="130" width="250" height="200" on-touch="_GOTO_PAGE:6"/>
+  <agent img="alfaiates.png"  x="110" y="60" width="250" height="200" on-touch="_GOTO_PAGE:7"/>
+  </page>
+ 
+  
 </fable>
